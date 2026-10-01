@@ -1,0 +1,81 @@
+dei	ΔΕΗ	ELECTRICITY	dei.gr	#0B6FB8	DEI (PPC)
+protergia	Protergia	ELECTRICITY	protergia.gr	#E30613	
+heron	ΗΡΩΝ	ELECTRICITY	heron.gr	#F39200	Heron
+elpedison	Elpedison	ELECTRICITY	elpedison.gr	#00A0DF	
+wattvolt	Watt+Volt	ELECTRICITY	watt-volt.gr	#E2007A	
+nrg	NRG	ELECTRICITY	nrg.gr	#00953B	
+zenith	Zenith	ELECTRICITY	zenith.gr	#E4032E	
+volton	Volton	ELECTRICITY	volton.gr	#2DB34A	
+enerwave	Enerwave	ELECTRICITY	enerwave.gr	#0072BC	
+elin	ELIN Energy	ELECTRICITY	elin.gr	#003E7E	
+fysikoaerio	Φυσικό Αέριο ΕΕΕ	GAS	fysikoaerioellados.gr	#005DAA	Fysiko Aerio (Natural Gas)
+eda	ΕΔΑ Αττικής	GAS	edaattikis.gr	#0057A8	EDA Attikis
+eydap	ΕΥΔΑΠ	WATER	eydap.gr	#0093D0	EYDAP
+eyath	ΕΥΑΘ	WATER	eyath.gr	#00A3E0	EYATH
+cosmote	Cosmote	TELECOM	cosmote.gr	#78BE20	
+vodafone	Vodafone	TELECOM	vodafone.gr	#E60000	
+nova	Nova	TELECOM	nova.gr	#E4002B	
+inalan	Inalan	TELECOM	inalan.gr	#FF6B00	
+cosmotetv	Cosmote TV	TELECOM	cosmotetv.gr	#78BE20	
+nbg	Εθνική Τράπεζα	BANK	nbg.gr	#003B5C	National Bank of Greece
+piraeus	Τράπεζα Πειραιώς	BANK	piraeusbank.gr	#F4B400	Piraeus Bank
+eurobank	Eurobank	BANK	eurobank.gr	#C8102E	
+alpha	Alpha Bank	BANK	alpha.gr	#005DA9	
+attica	Attica Bank	BANK	atticabank.gr	#003A70	
+optima	Optima Bank	BANK	optimabank.gr	#00334E	
+chania	Τράπεζα Χανίων	BANK	chaniabank.gr	#00539B	Bank of Chania
+pancreta	Παγκρήτια Τράπεζα	BANK	pancretabank.gr	#0060A9	Pancreta Bank
+revolut	Revolut	BANK	revolut.com	#191C1F	
+amex	American Express	BANK	americanexpress.com	#006FCF	
+vivawallet	Viva Wallet	BANK	viva.com	#000000	
+ethniki	Εθνική Ασφαλιστική	INSURANCE	ethniki-asfalistiki.gr	#003B71	Ethniki Insurance
+interamerican	Interamerican	INSURANCE	interamerican.gr	#E3001B	
+allianz	Allianz	INSURANCE	allianz.gr	#003781	
+generali	Generali	INSURANCE	generali.gr	#C21B17	
+eurolife	Eurolife FFH	INSURANCE	eurolife.gr	#E40521	
+nn	NN Hellas	INSURANCE	nnhellas.gr	#EE7F00	
+ergo	ERGO	INSURANCE	ergohellas.gr	#E30613	
+anytime	Anytime	INSURANCE	anytime.gr	#E30613	
+groupama	Groupama	INSURANCE	groupama.gr	#007A53	
+metlife	MetLife	INSURANCE	metlife.gr	#0090DA	
+hellasdirect	Hellas Direct	INSURANCE	hellasdirect.gr	#1B1464	
+aade	ΑΑΔΕ / Εφορία	PUBLIC	aade.gr	#003476	AADE / Tax office
+enfia	ΕΝΦΙΑ	PUBLIC	aade.gr	#003476	ENFIA (property tax)
+teli	Τέλη κυκλοφορίας	PUBLIC	aade.gr	#003476	Road tax
+efka	e-ΕΦΚΑ	PUBLIC	efka.gov.gr	#0D5DA6	e-EFKA
+govgr	gov.gr	PUBLIC	gov.gr	#003476	
+aodos	Αττική Οδός	PUBLIC	aodos.gr	#00843D	Attiki Odos
+olympiaodos	Ολυμπία Οδός	PUBLIC	olympiaodos.gr	#004A99	Olympia Odos
+egnatia	Εγνατία Οδός	PUBLIC	egnatia.eu	#0065A4	Egnatia Odos
+netflix	Netflix	SUBSCRIPTION	netflix.com	#E50914	
+spotify	Spotify	SUBSCRIPTION	spotify.com	#1DB954	
+disney	Disney+	SUBSCRIPTION	disneyplus.com	#113CCF	
+youtube	YouTube Premium	SUBSCRIPTION	youtube.com	#FF0000	
+prime	Amazon Prime Video	SUBSCRIPTION	primevideo.com	#00A8E1	
+hbomax	HBO Max	SUBSCRIPTION	max.com	#002BE7	
+appletv	Apple TV+	SUBSCRIPTION	tv.apple.com	#000000	
+icloud	iCloud+	SUBSCRIPTION	icloud.com	#3693F3	
+applemusic	Apple Music	SUBSCRIPTION	music.apple.com	#FA243C	
+googleone	Google One	SUBSCRIPTION	one.google.com	#4285F4	
+ms365	Microsoft 365	SUBSCRIPTION	microsoft.com	#D83B01	
+xbox	Xbox Game Pass	SUBSCRIPTION	xbox.com	#107C10	
+psplus	PlayStation Plus	SUBSCRIPTION	playstation.com	#003791	
+nintendo	Nintendo Switch Online	SUBSCRIPTION	nintendo.com	#E60012	
+deezer	Deezer	SUBSCRIPTION	deezer.com	#A238FF	
+storytel	Storytel	SUBSCRIPTION	storytel.com	#FF5C28	
+dropbox	Dropbox	SUBSCRIPTION	dropbox.com	#0061FF	
+chatgpt	ChatGPT Plus	SUBSCRIPTION	chatgpt.com	#10A37F	
+claude	Claude	SUBSCRIPTION	claude.ai	#D97757	
+canva	Canva	SUBSCRIPTION	canva.com	#00C4CC	
+adobe	Adobe	SUBSCRIPTION	adobe.com	#FA0F00	
+ertflix	ERTFLIX	SUBSCRIPTION	ertflix.gr	#0A2D6E	
+antennaplus	ANT1+	SUBSCRIPTION	antennaplus.gr	#E30613	
+skroutz	Skroutz Plus	SUBSCRIPTION	skroutz.gr	#F68B24	
+wolt	Wolt+	SUBSCRIPTION	wolt.com	#009DE0	
+efood	efood pro	SUBSCRIPTION	e-food.gr	#ED1C24	
+linkedin	LinkedIn Premium	SUBSCRIPTION	linkedin.com	#0A66C2	
+duolingo	Duolingo Super	SUBSCRIPTION	duolingo.com	#58CC02	
+rent	Ενοίκιο	HOME		#8D6E63	Rent
+koinoxrista	Κοινόχρηστα	HOME		#6D4C41	Building fees
+gym	Γυμναστήριο	OTHER		#546E7A	Gym
+school	Δίδακτρα / Φροντιστήριο	OTHER		#5C6BC0	Tuition

@@ -1,0 +1,4 @@
+-keepattributes *Annotation*, InnerClasses
+-keep,includedescriptorclasses class gr.logariasmoi.data.**$$serializer { *; }
+-keepclassmembers class gr.logariasmoi.data.** { *** Companion; }
+-keepclasseswithmembers class gr.logariasmoi.data.** { kotlinx.serialization.KSerializer serializer(...); }

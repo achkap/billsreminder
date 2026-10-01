@@ -1,0 +1,145 @@
+## BillDetailScreen.kt
+$label αντιγράφηκε||$label copied
+Πίσω||Back
+Επεξεργασία||Edit
+Περισσότερα||More
+Επαναφορά||Restore
+Αρχειοθέτηση||Archive
+Διαγραφή||Delete
+Αρχειοθετημένος||Archived
+Επανάληψη||Repeat
+Λήξη||Due
+Από||From
+Μέχρι||Until
+Χωρίς λήξη||No end date
+Υπενθυμίσεις||Reminders
+Καμία||None
+ στις || at
+Πληρωμή||Payment
+Πάγια εντολή||Direct debit
+Κωδικός RF||RF code
+Ο κωδικός RF||RF code
+Αρ. παροχής||Account no.
+Ο αριθμός||Number
+Σημειώσεις||Notes
+Εκκρεμούν||Pending
+Ιστορικό πληρωμών||Payment history
+Καμία πληρωμή ακόμα.||No payments yet.
+Σύνολο ${Fmt.money(history.sumOf { it.amount })} σε ${history.size} πληρωμές · μέσος όρος ${Fmt.money(history.sumOf { it.amount } / history.size)}||Total ${Fmt.money(history.sumOf { it.amount })} in ${history.size} payments · average ${Fmt.money(history.sumOf { it.amount } / history.size)}
+Λήξη ${Fmt.num(p.dueDate)} · πληρώθηκε ${Fmt.num(p.paidDate)}||Due ${Fmt.num(p.dueDate)} · paid ${Fmt.num(p.paidDate)}
+Αναίρεση πληρωμής||Undo payment
+Δεν υπάρχουν άλλες πληρωμές για αυτόν τον λογαριασμό.||No more payments for this bill.
+Αποθήκευση||Save
+Διαγραφή λογαριασμού;||Delete bill?
+Θα διαγραφεί το «${bill.name}» μαζί με όλο το ιστορικό πληρωμών του. Αν θέλεις απλώς να σταματήσουν οι υπενθυμίσεις, προτίμησε την αρχειοθέτηση.||“${bill.name}” and its whole payment history will be deleted. If you only want the reminders to stop, archive it instead.
+Αντιγραφή||Copy
+## CalendarScreen.kt
+Δε||Mo
+Τρ||Tu
+Τε||We
+Πε||Th
+Πα||Fr
+Σα||Sa
+Κυ||Su
+Ημερολόγιο||Calendar
+Σήμερα||Today
+Προηγούμενος||Previous
+Επόμενος||Next
+Μήνας: ${Fmt.money(occ.sumOf { it.amount })} · πληρώθηκαν ${Fmt.money(occ.filter { it.paid }.sumOf { it.amount })}||Month: ${Fmt.money(occ.sumOf { it.amount })} · paid ${Fmt.money(occ.filter { it.paid }.sumOf { it.amount })}
+Τίποτα για πληρωμή αυτή τη μέρα.||Nothing due on this day.
+## Dialogs.kt
+Άκυρο||Cancel
+Πληρώθηκε||Mark paid
+Λήξη: ${Fmt.full(dueDate)}||Due: ${Fmt.full(dueDate)}
+Ποσό που πληρώθηκε (€)||Amount paid (€)
+Ημερομηνία πληρωμής||Payment date
+Επιλογή||Pick
+## EditBillScreen.kt
+Εφάπαξ||One-off
+Εβδομάδα||Week
+2 εβδομάδες||2 weeks
+Μήνας||Month
+2 μήνες||2 months
+3 μήνες||3 months
+6 μήνες||6 months
+Έτος||Year
+μέρες||days
+εβδομάδες||weeks
+μήνες||months
+χρόνια||years
+Νέος λογαριασμός||New bill
+Επεξεργασία||Edit
+Πίσω||Back
+Αποθήκευση||Save
+Δικός μου λογαριασμός||Custom bill
+Αλλαγή||Change
+Όνομα||Name
+π.χ. «ΔΕΗ σπίτι», «Κινητό Μαρίας»||e.g. “Home electricity”, “Maria’s phone”
+Ποσό (€)||Amount (€)
+Αν αλλάζει κάθε φορά, βάλε ένα ενδεικτικό· το διορθώνεις όταν πληρώνεις.||If it changes every time, enter an estimate; you can correct it when you pay.
+Ημερομηνία λήξης||Due date
+Πρώτη ημερομηνία λήξης||First due date
+Επιλογή||Pick
+Επανάληψη||Repeat
+Προσαρμογή…||Custom…
+Κάθε||Every
+Μέχρι||Until
+Πάντα||Forever
+Ημερομηνία||Date
+Αρ. πληρωμών||No. of payments
+Τελευταία πληρωμή έως||Last payment by
+Πλήθος πληρωμών||Number of payments
+Τελευταία πληρωμή: ${Fmt.full(build().endDateForCount(it))}||Last payment: ${Fmt.full(build().endDateForCount(it))}
+${Fmt.repeat(unit, every)} · επόμενες: ||${Fmt.repeat(unit, every)} · next:
+Υπενθυμίσεις||Reminders
++ Άλλο||+ Other
+Ώρα υπενθύμισης: ${Fmt.time(hour, minute)}||Reminder time: ${Fmt.time(hour, minute)}
+Χωρίς υπενθυμίσεις δεν θα λάβεις ειδοποίηση για αυτόν τον λογαριασμό.||Without reminders you won’t be notified about this bill.
+Στοιχεία πληρωμής||Payment details
+Κωδικός πληρωμής (RF)||Payment code (RF)
+Αρ. παροχής / συμβολαίου / σύνδεσης||Account / contract / connection no.
+Πάγια εντολή||Direct debit
+Χρεώνεται αυτόματα από τον λογαριασμό/κάρτα||Charged automatically to your account/card
+Σημειώσεις||Notes
+Πόσες μέρες πριν;||How many days before?
+Προσθήκη||Add
+Άκυρο||Cancel
+Κατηγορία||Category
+## HomeScreen.kt
+Λογαριασμοί||Bills
+Ληξιπρόθεσμοι||Overdue
+Τις επόμενες 7 μέρες||Next 7 days
+Αργότερα||Later
+${occ.bill.name}: πληρώθηκε||${occ.bill.name}: paid
+Αναίρεση||Undo
+ · πάγια|| · direct debit
+Πληρώθηκε||Paid
+Πλήρωσα||Mark paid
+Υπόλοιπο ${Fmt.money(total - paid)}||Remaining ${Fmt.money(total - paid)}
+Πληρώθηκαν ${Fmt.money(paid)} από ${Fmt.money(total)} · ${month.count { it.paid }}/${month.size} λογαριασμοί||Paid ${Fmt.money(paid)} of ${Fmt.money(total)} · ${month.count { it.paid }}/${month.size} bills
+⚠ ${overdue.size} ληξιπρόθεσμοι · ${Fmt.money(overdue.sumOf { it.amount })}||⚠ ${overdue.size} overdue · ${Fmt.money(overdue.sumOf { it.amount })}
+Δεν έχεις λογαριασμούς ακόμα||You have no bills yet
+Πρόσθεσε ΔΕΗ, κινητό, Netflix ή οτιδήποτε πληρώνεις και θα σου θυμίζω πότε λήγουν.||Add your electricity, phone, Netflix or anything else you pay and you’ll be reminded before it’s due.
+Νέος λογαριασμός||New bill
+## ProviderPicker.kt
+Επίλεξε εταιρεία||Choose a company
+Πίσω||Back
+Αναζήτηση (π.χ. ΔΕΗ, Cosmote, Netflix)||Search (e.g. DEI, Cosmote, Netflix)
+Δικός μου λογαριασμός||Custom bill
+Για οτιδήποτε δεν υπάρχει στη λίστα||For anything that isn’t on the list
+## SummaryScreen.kt
+Σύνοψη||Summary
+Μήνας||Month
+Έτος||Year
+Προηγούμενο||Previous
+Επόμενο||Next
+Σύνολο||Total
+Πληρώθηκαν||Paid
+Απομένουν||Remaining
+Ανά κατηγορία||By category
+Πληρωμές μήνα||This month’s payments
+Καμία πληρωμή.||No payments.
+Όλοι οι λογαριασμοί (${data.bills.size})||All bills (${data.bills.size})
+Αρχειοθετημένος||Archived
+${Fmt.repeat(b.repeatUnit, b.repeatEvery)} · επόμενη ${Fmt.num(next)}||${Fmt.repeat(b.repeatUnit, b.repeatEvery)} · next ${Fmt.num(next)}
+${Fmt.repeat(b.repeatUnit, b.repeatEvery)} · ολοκληρώθηκε||${Fmt.repeat(b.repeatUnit, b.repeatEvery)} · completed

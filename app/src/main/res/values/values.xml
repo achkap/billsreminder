@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Λογαριασμοί</string>
+    <string name="widget_name">Επόμενοι λογαριασμοί</string>
+
+    <color name="brand">#1565C0</color>
+    <color name="widget_bg">#F7FFFFFF</color>
+    <color name="widget_text">#1B1B1F</color>
+    <color name="widget_sub">#5F6368</color>
+    <color name="widget_overdue">#C62828</color>
+
+    <style name="Theme.Logariasmoi" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+</resources>

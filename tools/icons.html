@@ -1,0 +1,49 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Icons</title>
+<style>
+body{font-family:sans-serif;background:#ddd;display:flex;gap:28px;padding:24px;flex-wrap:wrap}
+.c{display:flex;flex-direction:column;align-items:center;gap:8px}
+svg{width:160px;height:160px}
+.round{clip-path:circle(33.3% at 50% 50%)}
+.dark{background:#111;padding:10px;border-radius:12px}
+</style></head><body>
+<!-- viewport 108; launcher mask shows roughly the central 72 -->
+<template id="classic"><svg>
+  <rect width="108" height="108" fill="#1A3A8F"/>
+  <path fill="#FFFFFF" d="M34,28h40a4,4 0 0 1 4,4v50l-5,-4 -5,4 -5,-4 -5,4 -5,-4 -5,4 -5,-4 -5,4 -5,-4 -3,4V32a4,4 0 0 1 4,-4z"/>
+  <path fill="none" stroke="#1A3A8F" stroke-width="5" stroke-linecap="round" d="M63,43.5A12,12 0 1 0 63,64.5"/>
+  <path fill="none" stroke="#1A3A8F" stroke-width="4" stroke-linecap="round" d="M44,50.5H59M44,57.5H59"/>
+  <circle cx="76" cy="31" r="11" fill="#FFB300"/>
+  <path fill="#FFFFFF" d="M76,24.5c-3.3,0 -5,2.4 -5,5.5v3.2l-1.6,2.3h13.2l-1.6,-2.3V30c0,-3.1 -1.7,-5.5 -5,-5.5zM74,36.5a2,2 0 0 0 4,0z"/>
+</svg></template>
+<template id="calendar"><svg>
+  <rect width="108" height="108" fill="#00796B"/>
+  <rect x="30" y="34" width="48" height="44" rx="6" fill="#FFFFFF"/>
+  <path fill="#FF7043" d="M36,34h36a6,6 0 0 1 6,6v6H30v-6a6,6 0 0 1 6,-6z"/>
+  <rect x="40" y="28" width="5" height="12" rx="2.5" fill="#E0F2F1"/>
+  <rect x="63" y="28" width="5" height="12" rx="2.5" fill="#E0F2F1"/>
+  <path fill="none" stroke="#00796B" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" d="M42,61l8,8 16,-15"/>
+</svg></template>
+<template id="gold"><svg>
+  <rect width="108" height="108" fill="#000000"/>
+  <circle cx="54" cy="54" r="25" fill="#FFC107"/>
+  <circle cx="54" cy="54" r="20" fill="none" stroke="#FF8F00" stroke-width="2.5"/>
+  <path fill="none" stroke="#3E2723" stroke-width="5" stroke-linecap="round" d="M62,44.5A11,11 0 1 0 62,63.5"/>
+  <path fill="none" stroke="#3E2723" stroke-width="3.6" stroke-linecap="round" d="M44,51H58M44,57.5H58"/>
+</svg></template>
+<template id="minimal"><svg>
+  <rect width="108" height="108" fill="#6A1B9A"/>
+  <path fill="none" stroke="#E1BEE7" stroke-width="5" stroke-linecap="round" d="M78,54A24,24 0 1 1 71,37"/>
+  <path fill="#E1BEE7" d="M76.5,29.5L78.5,43 65,41z"/>
+  <path fill="none" stroke="#FFFFFF" stroke-width="5.5" stroke-linecap="round" d="M62,44A11.5,11.5 0 1 0 62,64"/>
+  <path fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" d="M43,51H57M43,57.5H57"/>
+</svg></template>
+<script>
+for (const id of ['classic','calendar','gold','minimal']) {
+  const inner = document.getElementById(id).content.firstElementChild.innerHTML;
+  const div = document.createElement('div'); div.className='c';
+  div.innerHTML = `<svg viewBox="0 0 108 108" class="round">${inner}</svg><svg viewBox="0 0 108 108" style="border-radius:24px">${inner}</svg><b>${id}</b>`;
+  document.body.appendChild(div);
+}
+</script>
+</body></html>

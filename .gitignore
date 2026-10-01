@@ -1,0 +1,17 @@
+# Signing key and its passwords - NEVER commit these
+keystore/
+*.jks
+*.keystore
+
+# Build outputs
+build/
+.gradle/
+.kotlin/
+*.apk
+*.aab
+
+# Machine-specific
+local.properties
+.idea/
+*.iml
+.DS_Store
