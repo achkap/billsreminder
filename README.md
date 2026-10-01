@@ -6,6 +6,21 @@
 A bill-payment reminder app for Android, built for Greece. Free, no account, no ads, no
 internet access: all data stays on your device. Greek and English UI.
 
+## Λήψη / Download
+
+**[⬇ Κατέβασε την τελευταία έκδοση (APK)](https://github.com/achkap/billsreminder/releases/latest)**
+
+1. Άνοιξε τον σύνδεσμο από το κινητό σου και κατέβασε το αρχείο `Logariasmoi.apk`.
+2. Άνοιξέ το και επίτρεψε την «εγκατάσταση από άγνωστες πηγές» αν σου ζητηθεί.
+3. Όταν ανοίξει η εφαρμογή, δέξου τις ειδοποιήσεις για να λαμβάνεις υπενθυμίσεις.
+
+Για ενημέρωση, κατέβασε το νέο APK και εγκατάστησέ το πάνω από το παλιό· τα δεδομένα σου μένουν.
+
+**[⬇ Download the latest release (APK)](https://github.com/achkap/billsreminder/releases/latest)** —
+open the link on your phone, download `Logariasmoi.apk`, allow "install unknown apps" when
+asked, and accept notifications on first launch. To update, install the new APK over the old
+one; your data is kept. Requires Android 8.0 or newer.
+
 ## Features
 
 - 80+ Greek providers and subscriptions (electricity, gas, water, mobile/internet/TV, banks,
